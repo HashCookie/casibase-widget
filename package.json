@@ -1,18 +1,20 @@
 {
-    "name": "casibase-widget",
-    "version": "0.0.0",
-    "description": "Casibase Chat Widget",
-    "main": "casibase.js",
-    "scripts": {
-      "semantic-release": "semantic-release"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/casibase/casibase-chat-widget.git"
-    },
-    "author": "Casibase",
-    "license": "Apache-2.0",
-    "devDependencies": {
-      "semantic-release": "^19.0.5"
-    }
+  "name": "casibase-widget",
+  "version": "0.0.0",
+  "description": "Casibase Chat Widget",
+  "main": "casibase.js",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/casibase/casibase-chat-widget.git"
+  },
+  "author": "Casibase",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "semantic-release": "^19.0.5",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.0"
   }
+}
