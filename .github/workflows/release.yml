@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - test-semantic-release
+      - master
 jobs:
   release:
     name: Release
