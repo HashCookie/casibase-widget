@@ -6,6 +6,17 @@
   "scripts": {
     "semantic-release": "semantic-release"
   },
+  "release": {
+    "branches": [
+      "test-semantic-release"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/HashCookie/casibase-tracker.git"
